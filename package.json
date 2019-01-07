@@ -1,0 +1,16 @@
+{
+  "name": "bug-unity-2018.3-android",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "overwrite2clone": "./node_modules/.bin/overwrite2clone"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "services": "github:beatthat/services"
+  }
+}

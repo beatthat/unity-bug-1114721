@@ -1,0 +1,12 @@
+*.csproj
+Library
+.gradle
+.vs
+Logs
+node_modules
+obj
+*.zip
+Temp
+*.sln
+*.apk
+

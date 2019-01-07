@@ -1,0 +1,112 @@
+{
+  "packages": {
+    "collections-ext": {
+      "name": "collections-ext",
+      "version": "1.0.5",
+      "config": {},
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beatthat/collections-ext.git"
+      },
+      "package_root": "node_modules/collections-ext",
+      "package_unity_src": "node_modules/collections-ext/Runtime/collections-ext",
+      "package_unity_samples": "node_modules/collections-ext/Samples",
+      "unity_install_path": "Assets/Plugins/packages/beatthat/collections-ext",
+      "unity_install_samples_path": "Assets/Samples/packages/beatthat/collections-ext",
+      "unity_install": {
+        "path": "Assets/Plugins/packages/beatthat/collections-ext",
+        "src": "node_modules/collections-ext/Runtime/collections-ext"
+      }
+    },
+    "pools": {
+      "name": "pools",
+      "version": "1.0.10",
+      "config": {},
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beatthat/pools.git"
+      },
+      "package_root": "node_modules/pools",
+      "package_unity_src": "node_modules/pools/Runtime/pools",
+      "package_unity_samples": "node_modules/pools/Samples",
+      "unity_install_path": "Assets/Plugins/packages/beatthat/pools",
+      "unity_install_samples_path": "Assets/Samples/packages/beatthat/pools",
+      "unity_install": {
+        "path": "Assets/Plugins/packages/beatthat/pools",
+        "src": "node_modules/pools/Runtime/pools"
+      }
+    },
+    "comments": {
+      "name": "comments",
+      "version": "1.0.5",
+      "config": {},
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beatthat/comments.git"
+      },
+      "package_root": "node_modules/comments",
+      "package_unity_src": "node_modules/comments/Runtime/comments",
+      "package_unity_samples": "node_modules/comments/Samples",
+      "unity_install_path": "Assets/Plugins/packages/beatthat/comments",
+      "unity_install_samples_path": "Assets/Samples/packages/beatthat/comments",
+      "unity_install": {
+        "path": "Assets/Plugins/packages/beatthat/comments",
+        "src": "node_modules/comments/Runtime/comments"
+      }
+    },
+    "safe-refs": {
+      "name": "safe-refs",
+      "version": "1.0.9",
+      "config": {},
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beatthat/safe-refs.git"
+      },
+      "package_root": "node_modules/safe-refs",
+      "package_unity_src": "node_modules/safe-refs/Runtime/safe-refs",
+      "package_unity_samples": "node_modules/safe-refs/Samples",
+      "unity_install_path": "Assets/Plugins/packages/beatthat/safe-refs",
+      "unity_install_samples_path": "Assets/Samples/packages/beatthat/safe-refs",
+      "unity_install": {
+        "path": "Assets/Plugins/packages/beatthat/safe-refs",
+        "src": "node_modules/safe-refs/Runtime/safe-refs"
+      }
+    },
+    "type-utils": {
+      "name": "type-utils",
+      "version": "1.0.4",
+      "config": {},
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beatthat/type-utils.git"
+      },
+      "package_root": "node_modules/type-utils",
+      "package_unity_src": "node_modules/type-utils/Runtime/type-utils",
+      "package_unity_samples": "node_modules/type-utils/Samples",
+      "unity_install_path": "Assets/Plugins/packages/beatthat/type-utils",
+      "unity_install_samples_path": "Assets/Samples/packages/beatthat/type-utils",
+      "unity_install": {
+        "path": "Assets/Plugins/packages/beatthat/type-utils",
+        "src": "node_modules/type-utils/Runtime/type-utils"
+      }
+    },
+    "services": {
+      "name": "services",
+      "version": "1.0.23",
+      "config": {},
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beatthat/services.git"
+      },
+      "package_root": "node_modules/services",
+      "package_unity_src": "node_modules/services/Runtime/services",
+      "package_unity_samples": "node_modules/services/Samples",
+      "unity_install_path": "Assets/Plugins/packages/beatthat/services",
+      "unity_install_samples_path": "Assets/Samples/packages/beatthat/services",
+      "unity_install": {
+        "path": "Assets/Plugins/packages/beatthat/services",
+        "src": "node_modules/services/Runtime/services"
+      }
+    }
+  }
+}
