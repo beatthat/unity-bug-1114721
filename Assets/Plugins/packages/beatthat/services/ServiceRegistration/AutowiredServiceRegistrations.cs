@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using BeatThat.TypeExts;
 
 namespace BeatThat.Service
 {
@@ -106,15 +105,15 @@ namespace BeatThat.Service
 
 			foreach(Assembly a in AppDomain.CurrentDomain.GetAssemblies()) {
 				foreach(Type t in a.GetTypes()) {
-                    var wiringAttr = t.GetCustomAttribute<RegisterServiceAttribute>();
+                    var wiringAttr = t.GetCustomAttribute(typeof(RegisterServiceAttribute)) as RegisterServiceAttribute;
                     if(wiringAttr == null)
                     {
                         continue;
                     }
 
-                    var resourceAttr = t.GetCustomAttribute<ResourceServiceAttribute>();
+                    var resourceAttr = t.GetCustomAttribute(typeof(ResourceServiceAttribute)) as ResourceServiceAttribute;
 
-                    var regGroupAttr = t.GetCustomAttribute<RegistrationGroupAttribute>();
+                    var regGroupAttr = t.GetCustomAttribute(typeof(RegistrationGroupAttribute)) as RegistrationGroupAttribute;
 
 					// if the RegisterService attribute specifies a service interface, register to that, 
 					// if not, register to the concrete service type
